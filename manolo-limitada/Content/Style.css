@@ -1,0 +1,98 @@
+﻿
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-login {
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+    .btn-login:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+
+.card-custom {
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-guardar {
+    border-radius: 50px;
+    padding: 8px 25px;
+    transition: all 0.3s;
+}
+
+    .btn-guardar:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+.btn-volver {
+    border-radius: 50px;
+    padding: 8px 25px;
+    transition: all 0.3s;
+}
+
+    .btn-volver:hover {
+        transform: translateY(-2px);
+    }
+
+
+.text-danger small {
+    font-size: 0.8rem;
+}
+
+
+
+.card-listado {
+    border-radius: 20px;
+    border: none;
+    overflow: hidden;
+}
+
+.table-modern {
+    margin-bottom: 0;
+}
+
+    .table-modern th {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        font-weight: 600;
+        border: none;
+        padding: 12px;
+    }
+
+    .table-modern td {
+        vertical-align: middle;
+        padding: 10px 12px;
+    }
+
+.btn-accion {
+    border-radius: 20px;
+    padding: 5px 12px;
+    margin: 0 2px;
+    transition: all 0.2s;
+}
+
+    .btn-accion:hover {
+        transform: scale(1.05);
+    }
+
+
+.badge-total {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
